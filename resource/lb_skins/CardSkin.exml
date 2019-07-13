@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardSkin" width="120" height="162" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="card_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="img_number" left="13" top="14" source=""/>
+	<e:Image id="img_flower" scaleX="0.5" scaleY="0.5" horizontalCenter="-25.5" top="60" source=""/>
+	<e:Image id="img_Flower" verticalCenter="25" right="15" source=""/>
+	<e:Image id="img_cardbg" source="cardBack_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecordBoxSkin" width="194" height="229" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="recordBox_bg_png" horizontalCenter="0" verticalCenter="6.5" scaleX="0.8" scaleY="0.7"/>
+	<e:Group width="94" height="205" y="13" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image y="181" source="recordBox_1_blank_png" horizontalCenter="0"/>
+		<e:Image y="159" source="recordBox_2_blank_png" horizontalCenter="0.5"/>
+		<e:Image y="135" source="recordBox_3_blank_png" horizontalCenter="0.5"/>
+		<e:Image y="109.5" source="recordBox_4_blank_png" horizontalCenter="0"/>
+		<e:Image y="83" source="recordBox_5_blank_png" horizontalCenter="0"/>
+		<e:Image y="56" source="recordBox_6_blank_png" horizontalCenter="0"/>
+		<e:Image y="30" source="recordBox_7_blank_png" horizontalCenter="0.5"/>
+		<e:Image y="5.5" source="recordBox_8_blank_png" horizontalCenter="0.5"/>
+	</e:Group>
+     <e:Group id="recordImageGroup" anchorOffsetY="0" height="205" anchorOffsetX="0" width="94" horizontalCenter="0" y="13">
+     <e:Image source="recordBox_1_png" y="178" x="35" visible="false"/>
+     <e:Image source="recordBox_2_png" y="156" horizontalCenter="0.5" visible="false"/>
+     <e:Image source="recordBox_3_png" y="132" horizontalCenter="0.5" visible="false"/>
+     <e:Image source="recordBox_4_png" y="106.5" horizontalCenter="0" visible="false"/>
+     <e:Image source="recordBox_5_png" y="80" horizontalCenter="0" visible="false"/>
+     <e:Image source="recordBox_6_png" y="53" horizontalCenter="0" visible="false"/>
+     <e:Image source="recordBox_7_png" y="26.5" horizontalCenter="0.5" visible="false"/>
+     <e:Image source="recordBox_8_png" y="2.5" horizontalCenter="0.5" visible="false"/>
+     </e:Group>
+</e:Skin>

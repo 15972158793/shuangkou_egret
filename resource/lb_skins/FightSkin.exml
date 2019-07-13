@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="hideReck" width="100%" height="100%" left="0" top="0" alpha="0.4" touchEnabled="true" visible="false"/>
+	<e:Group id="figGroup" x="0" y="0">
+		<e:Image source="fightBg_png" scaleX="0.7" scaleY="0.6" anchorOffsetY="0" height="1246.4" x="0" y="0"/>
+		<e:Image source="fightTopBg_png" anchorOffsetX="0" scaleX="0.7" scaleY="0.7" x="0" y="0"/>
+		<e:Button id="LatelygameBtn" label="" scaleX="0.7" scaleY="0.7" width="260" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fightTopBg_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="ReviewboardBtn" label="" x="177" y="0" scaleX="0.7" scaleY="0.7" width="260">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fightBtnBg_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="Latelygame_png" x="44" y="7" scaleX="0.7" scaleY="0.7" touchEnabled="false"/>
+		<e:Image x="223" y="6" scaleX="0.7" scaleY="0.7" touchEnabled="false" source="Reviewboard_png"/>
+		<e:Label text="昵称" x="51" y="45" size="26" fontFamily="SimHei" textColor="0x53290c"/>
+		<e:Label text="成绩" x="248" y="45" size="26" fontFamily="SimHei" textColor="0x53290C"/>
+		<e:Scroller width="342" height="660" x="5" y="79" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group>
+			<e:List id="listRank" width="100%" left="0" top="0"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Image id="fanfightBtn" source="fanhuifight_png" x="352" y="308"/>
+	</e:Group>
+</e:Skin>

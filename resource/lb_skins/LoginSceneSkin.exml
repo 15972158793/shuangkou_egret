@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoginSceneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="login_bg_png" width="100%" height="100%"/>
+	<e:Button id="downBtn" label="" bottom="58" horizontalCenter="-177" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="login_download_png"/>
+			
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="wxLoginBtn" label="" bottom="54" horizontalCenter="-383">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="login_wx_png"/>			
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="wxLoginBtn0" label="" bottom="425" horizontalCenter="331">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="login_wx_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="wxLoginBtn1" label="" bottom="320" horizontalCenter="331">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="login_wx_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="wxLoginBtn2" label="" bottom="200" horizontalCenter="331">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="login_wx_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="wxLoginBtn3" label="" bottom="83" horizontalCenter="331">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="login_wx_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:CheckBox id="cbBox" left="35%" y="450" >
+	<e:skinName>
+	<e:Skin>
+	<e:Image source="unSelectIco_png"></e:Image>
+	<e:Image id="checked" source="cr_chked_png"></e:Image>
+	</e:Skin>
+	</e:skinName>
+	</e:CheckBox>
+
+	<e:Label id="btnXieYi" left="40%" y="450" size="22" textColor="0xFEEDB9" fontFamily="楷体"></e:Label>
+	<e:Button id="btn_0" label="" x="43" y="260">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="login_wx_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_1" label="" x="43" y="377">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="login_wx_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_2" label="" x="43" y="125">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="login_wx_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+</e:Skin>

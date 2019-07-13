@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OutTimeUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="naozhong_png" scaleX="0.9" scaleY="0.9" locked="true"/>
+	<e:BitmapLabel id="cdLab" text="30" horizontalCenter="26.5" verticalCenter="-4.5" font="roomfont1_fnt" anchorOffsetX="0" width="59.33" anchorOffsetY="0" height="29.67" visible="false"/>
+	<e:Image source="color_clock_png" x="10" y="5" scaleX="0.9" scaleY="0.9"/>
+	<e:Label id="cdLab1" text="22" x="67" y="11" anchorOffsetX="0" width="61" textAlign="center" size="44" fontFamily="SimHei" textColor="0xe7ffca"/>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleRoomSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1206" height="750">
+<e:Rect width="100%" height="100%" alpha="0.5" fillColor="0x000000"/>
+	<e:Image width="836" height="584" x="178" y="84" scale9Grid="59,40,818,487" source="ruleRoom_di_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image x="196" y="154" anchorOffsetX="0" width="788" anchorOffsetY="0" height="464" source="" visible="false"/>
+	<e:Scroller width="782.36" height="510.55" x="205.64" y="113.64" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group anchorOffsetY="0" height="516.61">
+			<e:Image source="ruleRoom_txt_png" y="6" scaleX="0.9" scaleY="0.9" anchorOffsetX="0" left="6" width="850.6"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="btn_close" label="" x="956.42" y="49.02">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="ruleRoomWz_png" x="552.72" y="65.04"/>
+</e:Skin>

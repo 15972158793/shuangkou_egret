@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InvitationSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+<e:Rect width="100%" height="100%" alpha="0.5" fillColor="0x000000" />
+	<e:Image source="Invitation_png" x="1028.79" bottom="0" rotation="90"/>
+	<e:Image id="arrow" x="1137.52" y="640.04" source="jiantou_png" rotation="90"/>
+</e:Skin>

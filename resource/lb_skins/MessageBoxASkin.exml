@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MessageBoxASkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image anchorOffsetX="0" width="629" anchorOffsetY="0" height="386" source="dis_icon_bg_png"/>
+
+	<e:Button id="okBtn" label="" y="278.33" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_yes_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="msgLabel" text="" y="89" anchorOffsetX="0" width="483" anchorOffsetY="0" height="131" horizontalCenter="-2" verticalAlign="middle" fontFamily="SimHei" size="44" textAlign="center" lineSpacing="20" textColor="0x070707"/>
+	<e:Image id="closeBtn" x="544.4" y="-19.2" source="close_png" visible="false"/>
+	<e:Image source="sure_png" x="279" y="303" touchEnabled="false"/>
+	<e:Image source="tishiWz_png" y="-22" horizontalCenter="0"/>
+
+</e:Skin>

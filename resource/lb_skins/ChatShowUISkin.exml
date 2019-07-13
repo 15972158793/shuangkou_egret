@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatShowUISkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="452" height="50">
+	<e:Image id="faceImg" ></e:Image>
+	<e:Image id="txtBgImg" scale9Grid="30,14,188,89" source=""></e:Image>
+	<e:Label id="contentLab" text="" fontFamily="SimHei" size="22" textColor="0xffffff" x="24"/>
+	<e:Group id="facgif" x="0" y="0"/>
+</e:Skin>

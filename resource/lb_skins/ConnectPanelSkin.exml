@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConnectPanelSkin"  xmlns:e="http://ns.egret.com/eui" width="1206" height="750">
+<e:Image source="zhezhao_png" height="100%" width="100%"></e:Image>
+<e:Label id="connectTxt" text="您已断线" horizontalCenter="15" verticalAlign="0" top="295"></e:Label>
+</e:Skin>

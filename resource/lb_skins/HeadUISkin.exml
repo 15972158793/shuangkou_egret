@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeadUISkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="96" height="97">
+	<e:Image horizontalCenter="0.5" y="9.6" source="" visible="false"/>
+	<e:Image id="headQuestionImg" horizontalCenter="0.5" verticalCenter="0" source=""/>
+
+
+	<e:Image id="headImg" horizontalCenter="1.5" width="91.2" height="90" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" source=""/>
+	<e:Image id="disOnLineImg" source="disonline_png" horizontalCenter="1" verticalCenter="0.5" anchorOffsetX="0" width="92" anchorOffsetY="0" height="92" visible="false"/>
+	<e:Image id="rankImg" horizontalCenter="2" width="81.5" height="80.5" verticalCenter="3" source="" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Rect id="headMask" width="90" height="90" x="5" ellipseWidth="30" fillAlpha="1" alpha="0" verticalCenter="0"/>
+	<e:Button id="head_shareBtn" label="" x="-1" y="-2" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="99" height="102">
+			<e:Image width="99" height="102" source="shareBtn_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="setDownBtn" label="" verticalCenter="0" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="99" height="102">
+			<e:Image width="99" height="102" source="setDown_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+</e:Skin>

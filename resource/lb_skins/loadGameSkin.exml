@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadGameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="load_di" source="loadGame_di_png" x="0" y="0"/>
+	<e:Image id="load_fill" source="loadFill_png" x="458.48" y="200.19"/>
+	<e:Image source="shuangkou_txt_png" x="543.48" y="281.63" locked="true"/>
+	<e:Label text="99%" x="569.03" y="391.96" fontFamily="SimHei" size="44" textColor="0xffde98" bold="true" locked="true"/>
+	<e:Label text="正在加载游戏，测试中。。。" x="461.98" y="542.03" fontFamily="SimHei" size="24" textColor="0xa89a7b" bold="true" locked="true"/>
+</e:Skin>

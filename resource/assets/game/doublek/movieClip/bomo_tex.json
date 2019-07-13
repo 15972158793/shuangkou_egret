@@ -1,0 +1,84 @@
+{
+    "SubTexture": [
+        {
+            "frameHeight": 183,
+            "y": 169,
+            "frameX": 0,
+            "width": 145,
+            "frameY": -32,
+            "height": 151,
+            "name": "boon1",
+            "frameWidth": 170,
+            "x": 711
+        },
+        {
+            "width": 260,
+            "y": 311,
+            "height": 267,
+            "name": "bao04",
+            "x": 245
+        },
+        {
+            "width": 173,
+            "y": 1,
+            "height": 166,
+            "name": "bao02",
+            "x": 711
+        },
+        {
+            "width": 234,
+            "y": 1,
+            "height": 280,
+            "name": "bao07",
+            "x": 266
+        },
+        {
+            "width": 263,
+            "y": 1,
+            "height": 308,
+            "name": "bao08",
+            "x": 1
+        },
+        {
+            "frameHeight": 228,
+            "y": 107,
+            "frameX": -91,
+            "width": 104,
+            "frameY": 0,
+            "height": 104,
+            "name": "xian5",
+            "frameWidth": 212,
+            "x": 886
+        },
+        {
+            "width": 255,
+            "y": 601,
+            "height": 273,
+            "name": "bao05",
+            "x": 1
+        },
+        {
+            "width": 105,
+            "y": 1,
+            "height": 104,
+            "name": "bao01",
+            "x": 886
+        },
+        {
+            "width": 242,
+            "y": 311,
+            "height": 288,
+            "name": "bao06",
+            "x": 1
+        },
+        {
+            "width": 207,
+            "y": 1,
+            "height": 207,
+            "name": "bao03",
+            "x": 502
+        }
+    ],
+    "name": "bomo",
+    "imagePath": "bomo_tex.png"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="watchSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="hideReck" width="100%" height="100%" left="0" top="0" alpha="0.4" touchEnabled="true" visible="false"/>
+	<e:Button id="LatelygameBtn" label="" scaleX="0.7" left="0" top="0" scaleY="0.7" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="260" height="54" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="260" height="54" source="fightBtnBg_png" horizontalCenter="0" verticalCenter="0" scaleX.down="1" scaleY.down="1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ReviewboardBtn" label="" x="177" y="0" scaleX="0.7" scaleY="0.7" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="fightBtnBg_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="Latelygame_png" x="44" y="7" scaleX="0.7" scaleY="0.7" touchEnabled="false" visible="false"/>
+	<e:Image x="223" y="6" scaleX="0.7" scaleY="0.7" touchEnabled="false" source="Reviewboard_png" visible="false"/>
+	<e:Group id="scollGrop" x="0" y="0">
+		<e:Image source="fightBg_png" scaleX="0.7" scaleY="0.6" anchorOffsetY="0" height="1246.4" x="0" y="0"/>
+		<e:Image source="fightTopBg_png" anchorOffsetX="0" scaleX="0.7" scaleY="0.7" x="0" y="0"/>
+		<e:Label text="围观" y="45" size="26" fontFamily="SimHei" textColor="0x53290C" x="18"/>
+		<e:Label id="howNum" text="（1）" y="45" size="26" fontFamily="SimHei" textColor="0x53290C" x="61"/>
+		<e:Scroller width="342" height="660" x="5" y="79" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group>
+			<e:List id="listRank" width="100%" left="0" top="0">
+				<e:layout>
+				<e:TileLayout requestedColumnCount="2" orientation="rows" horizontalGap="50"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Image source="watchlist_png" x="131.66" y="8.64" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="fanhuifightBtn" source="fanhuifight_png" x="349" y="307"/>
+	</e:Group>
+</e:Skin>

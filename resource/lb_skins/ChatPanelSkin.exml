@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="chatImgBg" width="500" height="256" y="68.36" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-3.5">
+	</e:Group>
+	<e:Image id="img_txt" source="chatbg_png" visible="false" />
+	<e:Image id="img_face" source="face_bg_png"  horizontalCenter="0" verticalCenter="0"/>
+	<e:RadioButton id="radioRbt" label="" x="8.14" y="5.2" selected="true" groupName="chatGroup" value="0" anchorOffsetX="0" width="270.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bgleft1_png" source.down="bgleft_png" />
+				<e:Image horizontalCenter="0" verticalCenter="0" source.down="changyongyu_png"  source="changyongyu_png" source.up="changyongyu_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="radioFace" label="" x="276.82" y="5.2" selected="false" groupName="chatGroup" value="1" anchorOffsetX="0" width="270.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bgright1_png" source.down="bgright_png" />
+				<e:Image source.down="biaoqing_png" horizontalCenter="0" verticalCenter="0"  source="biaoqing_png" source.up="biaoqing_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:ViewStack id="vs" width="500" height="256" y="69.29" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-3.5"
+	             selectedIndex="0">
+		<e:Group id="txtGroup" width="500" height="256" name="Group" anchorOffsetX="0" anchorOffsetY="0" top="0" left="0">
+			<e:Scroller width="500" height="256" horizontalCenter="0">
+				<e:List id="usefulList" anchorOffsetY="0" height="261" x="0" y="-5">
+					<e:itemRenderer>
+						<ns1:UsefuleItem skinName="UsefuleItemSkin"  width="500"/>
+					</e:itemRenderer>
+					<e:layout>
+						<e:TileLayout horizontalGap="23" verticalGap="11" />
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object msg="null" />
+							<e:Object msg="null" />
+							<e:Object msg="null" />
+							<e:Object msg="null" />
+							<e:Object msg="null" />
+							<e:Object msg="null" />
+							<e:Object msg="null" />
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+
+		<e:Group id="faceGroup" width="500" height="256" name="Group" anchorOffsetX="0" anchorOffsetY="0" top="0" left="0">
+			<e:Image scaleX="1" scaleY="1" source="chatbg_png" top="0" left="0"/>
+			<e:DataGroup id="faceList" width="500" height="256" top="0" left="0">
+				<e:layout>
+					<e:TileLayout orientation="rows" requestedColumnCount="5" horizontalGap="3" verticalGap="2"></e:TileLayout>
+				</e:layout>
+			</e:DataGroup>
+			<e:Scroller id="faceScroller" width="500" height="256" left="0" top="0" scrollPolicyV="on" scrollPolicyH="off"></e:Scroller>
+		</e:Group>
+	</e:ViewStack>
+</e:Skin>

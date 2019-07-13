@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RadioButtonSkin" states="up,down,upAndSelected,downAndSelected" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="100%" height="100%">
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+		<e:Image fillMode="scale" alpha="1" alpha.down="0.7" source="msl_1_png" x.up="26" y.up="8.5" source.upAndSelected="msl_2_png" source.downAndSelected="msl_2_png" anchorOffsetX.downAndSelected="0" width.downAndSelected="266" x.downAndSelected="-6" y.downAndSelected="0"/>
+	</e:Group>
+	<e:Image source="msr_3_png" y="0" x.up="45" verticalCenter="0" horizontalCenter="0" source.upAndSelected="msr_4_png" source.downAndSelected="msr_4_png"/>
+</e:Skin>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateroomSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" locked="true">
+		<e:Image source="cr_icon_bg_png" horizontalCenter="0" verticalCenter="0" x="-480" y="-20" scaleX="1" scaleY="1" />
+		<e:Image source="cr_icon_create_png" y="28" horizontalCenter="0" x="-90" scaleX="1" scaleY="1" />
+	</e:Group>
+	<e:RadioButton id="btn_dk" label="" x="44" y="193" groupName="gameGroup">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="184" height="68">
+				<e:Image source="cr_up_dk_png" source.down="cr_down_dk_png" horizontalCenter.down="0" verticalCenter.down="0"
+				         left="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="btn_three" label="" x="44" y="124" groupName="gameGroup">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="184" height="69">
+				<e:Image source="cr_up_Thirteen_png" source.down="cr_down_Thirteen_png" verticalCenter="0" left="0"
+				         horizontalCenter.down="0" verticalCenter.down="0" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Group x="220" y="96" anchorOffsetX="0" width="719" anchorOffsetY="0" height="406" locked="true">
+		<e:Image source="cr_icon_round_png" x="52" y="28" scaleX="1" scaleY="1" />
+		<e:Image source="cr_icon_num_png" x="52" y="106" scaleX="1" scaleY="1" />
+		<e:Image source="ce_icon_wana_png" x="52" y="172" scaleX="1" scaleY="1" />
+		<e:Image source="cr_net_roomCard_png" x="52" y="242" />
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="left" paddingLeft="50" paddingTop="30" gap="45" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="dkGroup" x="230" y="106" anchorOffsetX="0" width="719" anchorOffsetY="0" height="406"
+	        >
+		<e:RadioButton id="btn_four" label="" x="136" y="21" width="85" height="30" groupName="dkgroup">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cr_round_4_png" />
+					<e:Image source="cr_selected_png" includeIn="down" verticalCenter="0" left="0" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" visible="false" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="btn_eight" label="" x="254" y="21" width="85" height="30" groupName="dkgroup">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cr_round_8_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="cr_selected_png" includeIn="down" left="0" top="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="btn_sixteen" label="" x="370" y="21" width="85" height="30" groupName="dkgroup">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cr_round_16_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="cr_selected_png" includeIn="down" left="0" top="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="btn_bbdk" label="" x="129.5" y="159" groupName="dkgroup1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" height="34">
+					<e:Image width="100%" height="100%" source="cr_up_dk_bb_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="cr_selected_png" includeIn="down" left="0" top="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="btn_jddk" label="" x="309.5" y="159" groupName="dkgroup1" height="34">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cr_up_dk_jd_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="cr_selected_png" includeIn="down" left="0" top="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="threeGroup" x="230" y="106" anchorOffsetX="0" width="719" anchorOffsetY="0" height="406"
+	         locked="true" visible="false">
+		<e:RadioButton id="btn_ten" label="" x="136" y="21" groupName="dkgroup" height="34">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cr_round_10_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="cr_selected_png" includeIn="down" left="0" top="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="btn_tweenty" label="" x="254" y="21" height="34" groupName="dkgroup">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cr_round_20_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="cr_selected_png" includeIn="down" left="0" top="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Image source="cr_select_wanfa_png" x="40" y="162" />
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="count_img" source="cr_icon_tips_png" y="398" horizontalCenter="94.5" />
+	<e:Label id="txt_roomcard" text="2" x="436" y="340" width="50" textAlign="center" textColor="0x864414" size="24"
+	         anchorOffsetY="0" bold="true"  fontFamily="SimHei" verticalAlign="middle"/>
+	<e:Button id="btn_ok" label="" y="454" horizontalCenter="94">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="198" height="72">
+				<e:Image source="cr_btn_ok_png" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter="0"
+				         verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" visible="false" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_close" label="" x="4" y="12">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="74" height="75">
+				<e:Image source="cr_btn_close_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

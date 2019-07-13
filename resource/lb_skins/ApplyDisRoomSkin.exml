@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ApplyDisRoomSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="dis_icon_bg_png" horizontalCenter="0" verticalCenter="0" x="-80" y="-176" scaleX="1" scaleY="1"/>
+		<e:Image x="17.5" y="224.3" source="dis_icon_line_png" width="520"/>
+		<e:HSlider id="hslider_time" height="20" y="219.3" anchorOffsetX="1.33" anchorOffsetY="-1.33" x="14.5" maximum="100" width="530">
+			<e:skinName>
+			<e:Skin minWidth="20" minHeight="8">
+				<e:Image id="track" scale9Grid="1,1,4,4" width="100%" verticalCenter="0" source="dis_icon_line_png"/>
+				<e:Image id="thumb" verticalCenter="0" source="dis_icon_time_png" x="0" anchorOffsetX="0" width="100%"/>
+			</e:Skin>
+			</e:skinName>
+		</e:HSlider>
+		<e:Image y="289" horizontalCenter="1" source="" visible="false"/>
+		<e:Image y="83" horizontalCenter="0" anchorOffsetY="0" height="153" source="" visible="false"/>
+		<e:Image source="jiesanqingqiu_png" y="-24" horizontalCenter="0"/>
+		<e:Label text="要求立即解散牌局" y="48" textColor="0x070707" fontFamily="SimHei" horizontalCenter="68.5"/>
+		<e:Label id="shengqingzhe" text="一岁一溜溜" x="74" y="48" textColor="0x070707" fontFamily="SimHei" textAlign="right"/>
+		<e:Label id="hownumpeople" text="2/4人" y="88" textColor="0xb90000" size="44" fontFamily="SimHei" horizontalCenter="0"/>
+		<e:Label text="已经同意解散" y="137" textColor="0x070707" fontFamily="SimHei" textAlign="center" horizontalCenter="0.5"/>
+		<e:Label text="3人同意即可解散房间" y="183" fontFamily="SimHei" textAlign="center" horizontalCenter="0.5" textColor="0x8c8a8a"/>
+		<e:Label id="img_ing" text="正在等待其他玩家选择" y="268" textColor="0x070707" fontFamily="SimHei" horizontalCenter="0.5" visible="false"/>
+	</e:Group>
+	<e:Group width="606" height="150.3" y="86" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Group id="playerUI1" x="16" y="-2" anchorOffsetX="0" height="142.73" width="147" anchorOffsetY="0">
+			<e:Image id="head_1" x="20" top="0" name="header" width="99" height="99" source=""/>
+			<e:Rect id="headMask_1" width="104" height="104" x="17" y="-3" ellipseWidth="54" alpha="0"/>
+			<e:Image id="select_1" y="57.33" horizontalCenter="26.5" name="choice" source=""/>
+			<e:Label id="name_1" text="Label" y="110" horizontalCenter="-2.5" stroke="1" strokeColor="0xb09a59" name="nick" size="22"/>
+		</e:Group>
+		<e:Group id="playerUI2" x="36" y="18" anchorOffsetX="0" height="142.73" width="147" anchorOffsetY="0">
+			<e:Image id="head_2" x="20" top="0" name="header" width="99" height="99" source=""/>
+			<e:Rect id="headMask_2" width="104" height="104" x="18" y="-2" ellipseWidth="54" alpha="0"/>
+			<e:Image id="select_2" y="58.83" horizontalCenter="26.5" name="choice" source=""/>
+			<e:Label id="name_2" text="Label" y="110" horizontalCenter="-1.5" stroke="1" strokeColor="0xB09A59" name="nick" size="22"/>
+		</e:Group>
+		<e:Group id="playerUI3" x="46" y="28" anchorOffsetX="0" height="142.73" width="147" anchorOffsetY="0">
+			<e:Image id="head_3" x="20" top="0" name="header" width="99" height="99" source=""/>
+			<e:Rect id="headMask_3" width="104" height="104" x="17" y="-3" ellipseWidth="54" alpha="0"/>
+			<e:Image id="select_3" y="55.82" horizontalCenter="16.5" name="choice" source=""/>
+			<e:Label id="name_3" text="Label" y="110" horizontalCenter="-1.5" stroke="1" strokeColor="0xB09A59" name="nick" size="22"/>
+		</e:Group>
+		<e:Group id="playerUI4" x="26" y="8" anchorOffsetX="0" height="142.73" width="147" anchorOffsetY="0">
+			<e:Image id="head_4" x="20" top="0" name="header" width="99" height="99" source=""/>
+			<e:Rect id="headMask_4" width="104" height="104" x="17" y="-2" ellipseWidth="54" alpha="0"/>
+			<e:Image id="select_4" y="52.79" horizontalCenter="19.5" name="choice" source=""/>
+			<e:Label id="name_4" text="Label" y="110" horizontalCenter="-1.5" stroke="1" strokeColor="0xB09A59" name="nick" size="22"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn_close" label="" x="654" y="48" visible="false">
+	</e:Button>
+	<e:Group id="group_btn" width="530.18" height="89.4" x="114.61" y="249" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="btn_no" label="" x="16.23999999999998" bottom="6.400000000000006" y="-5" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_no_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_yes" label="" x="328.27" bottom="6.400000000000006" y="-5" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_yes_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image x="383.27" y="23" touchEnabled="false" scaleX="1" scaleY="1" source="sure_png"/>
+		<e:Image x="70.39" y="24" touchEnabled="false" scaleX="1" scaleY="1" source="false_png"/>
+	</e:Group>
+</e:Skin>

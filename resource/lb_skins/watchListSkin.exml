@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="watchListSkin" width="129" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="watchhead" width="80" height="80" x="22" y="37" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Rect id="watchmask" width="82" height="82" x="22" y="37" ellipseWidth="106"/>
+	<e:Label id="watchname" text="Label" x="15" y="6" size="22" fontFamily="SimHei" textColor="0x53290c" width="102" textAlign="center"/>
+</e:Skin>

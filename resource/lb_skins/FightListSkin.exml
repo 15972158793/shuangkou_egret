@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightListSkin" width="342" height="46" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="fightHBg_png" scaleX="0.7" top="0"/>
+	<e:Label id="fightName" text="Label" x="16" y="11" size="26" fontFamily="SimHei" textColor="0x53290c" anchorOffsetX="0" width="143" textAlign="center"/>
+	<e:Label id="fightScore" text="Label" x="187" y="11" size="26" fontFamily="SimHei" textColor="0x53290C" anchorOffsetX="0" width="143" textAlign="center"/>
+</e:Skin>

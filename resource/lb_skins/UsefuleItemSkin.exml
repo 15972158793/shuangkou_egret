@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UsefuleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="500" height="32">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="partingline_png"/>
+	<e:Label id="msgLab" text="{data}" anchorOffsetX="0" width="500" size="24" fontFamily="SimHei" bold="true" textColor="0xffffff" left="8" height="31" verticalAlign="middle" verticalCenter="0"/>
+</e:Skin>

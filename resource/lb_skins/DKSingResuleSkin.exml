@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DKSingResuleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="danju-beijing_png"/>
+	<e:Button id="continueBtn" label="" y="463.03" horizontalCenter="-2.5" >
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_yes_png" verticalCenter="0" horizontalCenter="0" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="dataGroup" y="147.49" anchorOffsetX="0" anchorOffsetY="0" width="100%" height="313.12" horizontalCenter="0">
+		<e:Group id="user_1" y="1.36" anchorOffsetX="0" anchorOffsetY="0" width="100%" scaleX="1" scaleY="1" height="75.76" horizontalCenter="0">
+			<e:Image source="heng_xian_png" y="0.65" horizontalCenter="0.5"/>
+			<e:Image id="bg_1" x="5.24" y="-9.14" source="" visible="false"/>
+			<e:Image id="headImgUrl_1" width="60" height="60" x="53" y="9.9" anchorOffsetX="0" anchorOffsetY="0" source="touxiang_png"/>
+			<e:Rect id="headmask_1" width="60" height="60" x="52" y="9.9" ellipseWidth="43" alpha="0"/>
+			<e:Image id="banker_1" source="banker_img_png" x="15.44" y="-24.88"/>
+			<e:Label id="name_1" text="飞翔的外衣" x="161" fontFamily="SimHei" size="24" verticalCenter="-2.9399999999999977" anchorOffsetX="0" width="120" textAlign="center" textColor="0xffd9a7"/>
+			<e:Label id="txt_score_1" text="2" x="988.37" y="25.71" textColor="0xe08c2a" textAlign="center" verticalAlign="middle" width="96.67" anchorOffsetX="0" anchorOffsetY="0" height="31.52" size="36" fontFamily="SimHei"/>
+			<e:Label text="得分" x="948.92" y="29" textColor="0xFFD9A7" size="24" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Scroller width="416.61" height="59.36" x="356.12" y="7" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group id="boom_1" width="416.61" height="59.36" anchorOffsetY="0">
+					<e:layout>
+						<e:TileLayout horizontalGap="-16" verticalGap="-25"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="user_2" y="79.35" anchorOffsetX="0" anchorOffsetY="0" width="100%" scaleX="1" scaleY="1" height="75.76" horizontalCenter="0" x="10">
+			<e:Image source="heng_xian_png" y="0.65" horizontalCenter="0.5"/>
+			<e:Image id="bg_2" x="5.24" y="-9.14" source="" visible="false"/>
+			<e:Image id="headImgUrl_2" width="60" height="60" x="53" y="7.23" anchorOffsetX="0" anchorOffsetY="0" source="touxiang_png"/>
+			<e:Rect id="headmask_2" width="60" height="60" x="52" y="7.23" ellipseWidth="43" alpha="0"/>
+			<e:Image id="banker_2" source="banker_img_png" x="15.44" y="-24.88"/>
+			<e:Label id="name_2" text="飞翔的外衣" x="161" fontFamily="SimHei" size="24" verticalCenter="-2.9399999999999977" anchorOffsetX="0" width="120" textAlign="center" textColor="0xFFD9A7"/>
+			<e:Label id="txt_score_2" text="2" x="988.37" y="25.71" textColor="0xE08C2A" textAlign="center" verticalAlign="middle" width="96.67" anchorOffsetX="0" anchorOffsetY="0" height="31.52"/>
+			<e:Label text="得分" x="948.92" y="29" textColor="0xFFD9A7" size="24" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Scroller width="416.61" height="59.36" x="356.12" y="7" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="boom_2" width="416.61" height="59.36" anchorOffsetY="0">
+				<e:layout>
+				<e:TileLayout horizontalGap="-16" verticalGap="-25"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="user_3" y="157.36" anchorOffsetX="0" anchorOffsetY="0" width="100%" scaleX="1" scaleY="1" height="75.76" horizontalCenter="0" x="20">
+			<e:Image source="heng_xian_png" y="0.65" horizontalCenter="0.5"/>
+			<e:Image id="bg_3" x="5.24" y="-9.14" source="" visible="false"/>
+			<e:Image id="headImgUrl_3" width="60" height="60" x="53" y="5.9" anchorOffsetX="0" anchorOffsetY="0" source="touxiang_png"/>
+			<e:Rect id="headmask_3" width="60" height="60" x="52" y="5.9" ellipseWidth="43" alpha="0"/>
+			<e:Image id="banker_3" source="banker_img_png" x="15.44" y="-24.88"/>
+			<e:Label id="name_3" text="飞翔的外衣" x="161" fontFamily="SimHei" size="24" verticalCenter="-2.9399999999999977" anchorOffsetX="0" width="120" textAlign="center" textColor="0xFFD9A7"/>
+			<e:Label id="txt_score_3" text="2" x="988.37" y="25.71" textColor="0xE08C2A" textAlign="center" verticalAlign="middle" width="96.67" anchorOffsetX="0" anchorOffsetY="0" height="31.52"/>
+			<e:Label text="得分" x="948.92" y="29" textColor="0xFFD9A7" size="24" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Scroller width="416.61" height="59.36" x="356.12" y="7" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="boom_3" width="416.61" height="59.36" anchorOffsetY="0">
+				<e:layout>
+				<e:TileLayout horizontalGap="-16" verticalGap="-25"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="user_4" y="235.35" anchorOffsetX="0" anchorOffsetY="0" width="100%" scaleX="1" scaleY="1" height="75.76" horizontalCenter="0" x="30">
+			<e:Image source="heng_xian_png" y="0.65" horizontalCenter="0.5"/>
+			<e:Image id="bg_4" x="5.24" y="-9.14" source="" visible="false"/>
+			<e:Image id="headImgUrl_4" width="60" height="60" x="53" y="5.9" anchorOffsetX="0" anchorOffsetY="0" source="touxiang_png"/>
+			<e:Rect id="headmask_4" width="60" height="60" x="52" y="5.9" ellipseWidth="43" alpha="0"/>
+			<e:Image id="banker_4" source="banker_img_png" x="15.44" y="-24.88"/>
+			<e:Label id="name_4" text="飞翔的外衣" x="161" fontFamily="SimHei" size="24" verticalCenter="-2.9399999999999977" anchorOffsetX="0" width="120" textAlign="center" textColor="0xFFD9A7"/>
+			<e:Label id="txt_score_4" text="2" x="988.37" y="25.71" textColor="0xE08C2A" textAlign="center" verticalAlign="middle" width="96.67" anchorOffsetX="0" anchorOffsetY="0" height="31.52"/>
+			<e:Label text="得分" x="948.92" y="29" textColor="0xFFD9A7" size="24" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+			<e:Scroller width="416.61" height="59.36" x="356.12" y="7" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="boom_4" width="416.61" height="59.36" anchorOffsetY="0">
+				<e:layout>
+				<e:TileLayout horizontalGap="-16" verticalGap="-25"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Image source="togogame_txt_png" x="484.74" y="482.42" touchEnabled="false" locked="true"/>
+	<e:Label id="totalName" text="统分" y="15.98" horizontalCenter="0.5" textColor="0xffffff" size="38" textAlign="center" visible="false"/>
+	<e:Image source="score_txt_dan_png" x="449.33" y="73.66"/>
+</e:Skin>

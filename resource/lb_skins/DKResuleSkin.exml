@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DKResuleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1206" height="750">
+	<e:Image source="danju-beijing_png" y="54.5" scaleX="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Group y="201.55" anchorOffsetX="0" anchorOffsetY="0" width="746" horizontalCenter="33" height="48.15">
+		<e:Label text="双扣" fontFamily="SimHei" size="28" y="7.99" x="-2.02" textAlign="center" textColor="0xffd9a7"/>
+		<e:Label id="txt_roomID" text="房间" fontFamily="SimHei" size="28" y="7.99" x="276.08" textAlign="left" textColor="0xffd9a7" anchorOffsetX="0" width="207"/>
+		<e:Label id="txt_time" text="局数" fontFamily="SimHei" size="28" y="7.99" x="669.69" textAlign="center" textColor="0xffd9a7"/>
+	</e:Group>
+	<e:Group id="dataGroup" y="267.67" anchorOffsetX="0" anchorOffsetY="0" width="836" horizontalCenter="0" height="337">
+		<e:Group y="5.08" anchorOffsetX="0" anchorOffsetY="0" width="750" horizontalCenter="6" x="0" scaleX="1" scaleY="1" height="80">
+		<e:Image height="70" anchorOffsetX="0" anchorOffsetY="0" left="67" width="70" source="touxiang_png" verticalCenter="0"/>
+			<e:Rect width="72" height="72" x="65.65" y="2.97" ellipseWidth="30" alpha="0"/>
+		<e:Label id="score_0" text="总分" textColor="0x8D6C49" fontFamily="SimHei" size="36" anchorOffsetX="0" textAlign="center" verticalAlign="middle" verticalCenter="0" horizontalCenter="309"/>
+			<e:Label id="name_0" text="飞翔的外衣" x="301.77" width="214" height="40" textAlign="left" verticalAlign="middle" verticalCenter="0" size="24" fontFamily="SimHei" textColor="0xffd9a7"/>
+			<e:Image id="win_0" source="banker_img_png" verticalCenter="-28" left="35" visible="false"/>
+		</e:Group>
+		<e:Group y="88.76" anchorOffsetX="0" anchorOffsetY="0" width="750" x="49" scaleX="1" scaleY="1" height="80">
+		<e:Image width="70" height="70" anchorOffsetX="0" anchorOffsetY="0" left="68" source="touxiang_png" verticalCenter="0"/>
+			<e:Rect width="72" height="72" x="66.98" y="3.65" ellipseWidth="30" alpha="0"/>
+		<e:Label id="score_1" text="总分" textColor="0x8D6C49" fontFamily="SimHei" size="36" anchorOffsetX="0" textAlign="center" verticalAlign="middle" verticalCenter="0" horizontalCenter="308"/>
+			<e:Label text="飞翔的外衣" x="301.77" width="214" height="40" textAlign="left" id="name_1" verticalCenter="0" size="24" fontFamily="SimHei" textColor="0xffd9a7"/>
+			<e:Image id="win_1" source="banker_img_png" verticalCenter="-29" left="41" visible="false"/>
+		</e:Group>
+		<e:Group y="172.45" anchorOffsetX="0" anchorOffsetY="0" width="750" x="49" scaleX="1" scaleY="1" height="80">
+		<e:Image width="70" height="70" anchorOffsetX="0" anchorOffsetY="0" left="71" source="touxiang_png" verticalCenter="0"/>
+			<e:Rect width="72" height="72" x="70.98" y="2.99" ellipseWidth="30" alpha="0"/>
+		<e:Label id="score_2" text="总分" textColor="0x8D6C49" fontFamily="SimHei" size="36" anchorOffsetX="0" textAlign="center" verticalAlign="middle" verticalCenter="0" horizontalCenter="309"/>
+			<e:Label text="飞翔的外衣" x="301.77" width="214" height="40" textAlign="left" verticalAlign="middle" id="name_2" verticalCenter="0" size="24" fontFamily="SimHei" textColor="0xffd9a7"/>
+			<e:Image id="win_2" source="banker_img_png" verticalCenter="-33" left="42" visible="false"/>
+		</e:Group>
+		<e:Group y="260.92" anchorOffsetX="0" anchorOffsetY="0" width="750" horizontalCenter="6" x="30" scaleX="1" scaleY="1" height="80">
+		<e:Image width="70" height="70" anchorOffsetX="0" anchorOffsetY="0" left="70" source="touxiang_png" verticalCenter="0"/>
+			<e:Rect width="72" height="72" x="70.3" y="4.99" ellipseWidth="30" alpha="0"/>
+		<e:Label id="score_3" text="总分" textColor="0x8D6C49" fontFamily="SimHei" size="36" anchorOffsetX="0" textAlign="center" verticalCenter="0" verticalAlign="middle" horizontalCenter="309"/>
+			<e:Label text="飞翔的外衣" x="301.77" width="214" height="40" textAlign="left" verticalAlign="middle" id="name_3" verticalCenter="0" size="24" fontFamily="SimHei" textColor="0xffd9a7"/>
+			<e:Image id="win_3" source="banker_img_png" verticalCenter="-31" left="43" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="continueBtn" label="" y="622.55" x="332.95">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yaoqingbtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="shareBtn" label="" y="617.98" scaleX="1.08" scaleY="1.08" x="726.43" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_btn_png" verticalCenter="0" horizontalCenter="0" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="shareRecord_txt_png" x="763.8" y="642.01" touchEnabled="false"/>
+	<e:Image source="backHall_txt_png" x="358.78" y="643.13" touchEnabled="false"/>
+	<e:Image source="score_txt_zong_png" x="531.32" y="130.98"/>
+	<e:Group y="8" anchorOffsetX="0" anchorOffsetY="0" width="1097" horizontalCenter="0">
+		<e:Image source="heng_xian_png" y="171.37" scaleX="1" scaleY="1" left="0"/>
+		<e:Image source="heng_xian_png" y="259" scaleX="1" scaleY="1" left="0"/>
+		<e:Image source="heng_xian_png" y="344.61" scaleX="1" scaleY="1" left="0"/>
+		<e:Image source="heng_xian_png" y="427.56" scaleX="1" scaleY="1" left="0"/>
+		<e:Image source="heng_xian_png" y="518.26" scaleX="1" scaleY="1" left="0"/>
+	</e:Group>
+</e:Skin>

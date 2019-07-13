@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MessageBoxBSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group>
+		<e:Image source="dis_icon_bg_png" anchorOffsetX="0" width="587" anchorOffsetY="0" height="394.33"/>
+
+
+
+
+
+		<e:Button id="okBtn" label="同意" y="280.67" width="179" height="78" horizontalCenter="-13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_yes_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="1.5" bold="true" fontFamily="Arial" y="16" verticalAlign="justify" stroke="2" strokeColor="0x9f3c0c" textColor="0xfcfcfc"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="cancelBtn" label="拒绝" y="280.67" width="179" height="78" horizontalCenter="-126" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_no_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" textColor="0xfff3e3" bold="true" fontFamily="FZHTK" y="18" verticalAlign="justify" stroke="2" strokeColor="0x9f3c0c"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label id="msgLabel" text="" y="77" anchorOffsetX="0" width="333" anchorOffsetY="0" height="185" horizontalCenter="-12.5" verticalAlign="middle" fontFamily="SimHei" size="26" textAlign="center" lineSpacing="20" textColor="0xfffcfd"/>
+	</e:Group>
+</e:Skin>

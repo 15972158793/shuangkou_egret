@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MessageBoxOCSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="dis_icon_bg_png" horizontalCenter="0"/>
+		<e:Image y="-21" horizontalCenter="0" source="tishiWz_png"/>
+
+
+
+
+
+		<e:Button id="okBtn" label="" y="249" x="343" anchorOffsetX="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_yes_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Button id="cancelBtn" label="" y="249" x="41">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_no_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Label id="msgLabel" text="" y="77" anchorOffsetX="0" width="499" anchorOffsetY="0" height="160" horizontalCenter="-2" verticalAlign="middle" fontFamily="SimHei" size="44" textAlign="center" lineSpacing="20" textColor="0x070707"/>
+		<e:Image source="sure_png" x="402" y="271" touchEnabled="false"/>
+		<e:Image source="false_png" x="96" y="270" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

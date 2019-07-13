@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ScorePanelSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="com_panel_bg2_png"/>
+	<e:Image y="8" horizontalCenter="0" source="score_title_png"/>
+	<e:Button id="closeBtn" label="" y="33.5" right="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" width="100%" height="100%" source="com_close_btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:RadioButton id="radioRbt" x="50" y="115" groupName="scoreRadios" value="1" selected="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn1_png" source.down="com_btn2_png"/>
+			<e:Image source.down="score_dk_txt1_png" horizontalCenter="-3" source="score_dk_txt2_png" verticalCenter="-4.5"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton x="50" y="232.5" groupName="scoreRadios" value="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn1_png" source.down="com_btn2_png"/>
+			<e:Image source="rule_13_txt1_png" source.down="rule_13_txt2_png" horizontalCenter="0" y="10"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton x="50" y="172.5" groupName="scoreRadios" value="2">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn1_png" source.down="com_btn2_png"/>
+			<e:Image source="score_hdk_txt2_png" source.down="score_hdk_txt1_png" horizontalCenter="-2" y="12"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:ViewStack id="vs" width="479" height="357" x="191.76" y="99.12" anchorOffsetX="-1.24" anchorOffsetY="1.12" selectedIndex="1">
+	
+	<e:Group width="100%" height="100%" name="Group">
+			<e:Image source="score_bg1_png" x="24" y="20"/>
+		<e:Scroller width="100%" height="310" anchorOffsetY="0" x="0" y="47">
+			<e:List id="thridScoreList" width="472" height="298" x="0" y="59" anchorOffsetY="0" anchorOffsetX="0">
+				<e:itemRenderer>
+				<ns1:ScoreItem skinName="ScoreItemSkin"/>
+				</e:itemRenderer>
+				<e:layout>
+				<e:VerticalLayout horizontalAlign="left" gap="16" paddingTop="10"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+
+			</e:List>
+
+		</e:Scroller>
+
+		</e:Group>
+
+	
+	
+	
+		<e:Group width="100%" height="100%" name="Group">
+			<e:Image source="score_bg1_png" x="24" y="20"/>
+		<e:Scroller width="100%" height="310" anchorOffsetY="0" x="0" y="47">
+			<e:List id="dkScoreList" width="472" height="298" x="0" y="59" anchorOffsetY="0" anchorOffsetX="0">
+				<e:itemRenderer>
+				<ns1:ScoreItem skinName="ScoreItemSkin"/>
+				</e:itemRenderer>
+				<e:layout>
+				<e:VerticalLayout horizontalAlign="left" gap="16" paddingTop="10"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+
+			</e:List>
+
+		</e:Scroller>
+
+		</e:Group>
+
+			<e:Group width="100%" height="100%" name="Group">
+			<e:Image source="score_bg1_png" x="24" y="20"/>
+		<e:Scroller width="100%" height="310" anchorOffsetY="0" x="0" y="47">
+			<e:List id="hdkScoreList" width="472" height="298" x="0" y="59" anchorOffsetY="0" anchorOffsetX="0">
+				<e:itemRenderer>
+				<ns1:ScoreItem skinName="ScoreItemSkin"/>
+				</e:itemRenderer>
+				<e:layout>
+				<e:VerticalLayout horizontalAlign="left" gap="16" paddingTop="10"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+						<e:Object a="null" b="null" c="null" d="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+
+			</e:List>
+
+		</e:Scroller>
+
+		</e:Group>
+
+	</e:ViewStack>
+
+</e:Skin>
